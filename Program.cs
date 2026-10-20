@@ -29,7 +29,7 @@ for (int i = 0; i < Questions.All.Count; i++)
 }
 
 int total = Questions.All.Count;
-int percent = correct / total * 100;
+double percent = 100.0 * correct / total;
 Print($"Итог: {correct} из {total} — {percent}%", ConsoleColor.Yellow);
 Print(percent >= 80 ? "Отлично, GitHub тебе по плечу!" : "Перечитай слайды лекции и попробуй ещё раз.", ConsoleColor.Cyan);
 
