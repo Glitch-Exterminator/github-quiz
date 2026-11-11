@@ -1,4 +1,5 @@
 # GitHub-квиз
+[![CI](https://github.com/Glitch-Exterminator/github-quiz/actions/workflows/ci.yml/badge.svg)](https://github.com/Glitch-Exterminator/github-quiz/actions/workflows/ci.yml)
 
 Консольная викторина по Git и GitHub: пять вопросов по лекции,
 ответ — номер варианта, в конце — итог в процентах.
